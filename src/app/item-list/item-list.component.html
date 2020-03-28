@@ -1,0 +1,7 @@
+<h2>Items</h2>
+
+<button (click)="loadItems()">Refresh List</button>
+
+<ol>
+    <li *ngFor ="let item of items">{{item.name}}, {{item.description}}, {{item.price}}</li>
+</ol>

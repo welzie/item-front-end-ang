@@ -1,0 +1,6 @@
+<h2>Add Item Form</h2>
+<input #name type='text' placeholder="Name"/>
+<input #description type='text' placeholder="Description"/>
+<input #price type='number' placeholder="Price" step="0.01"/>
+
+<button (click)='saveItem(name.value, description.value, price.value)'>Save</button>
