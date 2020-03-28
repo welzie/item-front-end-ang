@@ -1,4 +1,16 @@
-# Items
+# Demo of using GET and POST with fetch.
+
+## To Run
+1. npm install
+1. ng serve
+1. Clone and start backend repo https://github.com/welzie/construction-api
+   * See that repo's read me for details
+1. Add items and refresh list
+
+
+----
+
+# Items (Default Angular README)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
